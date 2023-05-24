@@ -43,6 +43,7 @@ export class PeopleComponent implements OnInit {
       this.rows = value;
       this.isLoading = false;
       this.cd.detectChanges();
+this.cd.destroys();
     });
   }
 
