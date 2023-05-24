@@ -1,3 +1,8 @@
+4. Refactor: Remove the X-Powered-By response header
+Ans : We can remove it by disabling it : app.disable('x-powered-by');
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Is DbContext used in a thread safe manner?
 
    No, DbContext is not thread-safe.  We can use a separate DbContext instance for each thread.
